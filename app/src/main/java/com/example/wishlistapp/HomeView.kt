@@ -1,5 +1,6 @@
 package com.example.wishlistapp
 
+import android.annotation.SuppressLint
 import android.widget.Toast
 import androidx.compose.animation.animateColorAsState
 
@@ -43,6 +44,7 @@ import androidx.navigation.NavController
 import com.example.wishlistapp.Data.Wish
 
 
+@SuppressLint("SuspiciousIndentation")
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
 fun HomeView(
