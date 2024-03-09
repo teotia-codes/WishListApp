@@ -11,7 +11,7 @@ import kotlinx.coroutines.flow.Flow
 
 @Dao
 abstract class WishDao {
-    //class with methods which don't have any body
+    //abstract classes are class with methods which don't have any body
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     abstract suspend fun addWish(wishEntity: Wish)
 
